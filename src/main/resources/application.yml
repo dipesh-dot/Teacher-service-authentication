@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: client
+  config:
+    import: configserver:http://localhost:9095/
+  application:
+    name: teacher-services
+
